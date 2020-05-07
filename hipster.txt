@@ -2,3 +2,8 @@ Warning: If you don’t know what Dependency Injection is or you don’t know wh
 I regularly monitor StackOverflow for questions related to AspNet Identity framework. And one question keeps popping up over and over again: how do you use Inversion of Control containers with this framework.
 If you know the main principles of Dependency Injection, things are very simple. Identity is very DI-friendly and I’ve done a number of projects with Identity and injected all Identity components via Autofac or SimpleInjector. The principles behind DI are applicable to all the containers, despite the differences in API’s for registration.
 For the sake of this blog-post I’ll start with the standard VS2013 template and use Unity container, just because I’ve never used Unity before. You can view registrations for SimpleInjector in my test-project.
+
+
+
+
+In default template I don’t like the way Identity classes are all in one file and in App_Start folder, so I move them to /Identity folder and place a separate classes into separate folders. This is my preference, not really a requirement -) (Did you know with Reshrper you can place caret on class name and Ctr+R+O -> Move To Folder and get all the classes into separate files, into different folder)
