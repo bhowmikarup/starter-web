@@ -7,3 +7,10 @@ For the sake of this blog-post I’ll start with the standard VS2013 template an
 
 
 In default template I don’t like the way Identity classes are all in one file and in App_Start folder, so I move them to /Identity folder and place a separate classes into separate folders. This is my preference, not really a requirement -) (Did you know with Reshrper you can place caret on class name and Ctr+R+O -> Move To Folder and get all the classes into separate files, into different folder)
+
+
+
+This is pretty standard class most containers have for registration, but I’ve never seen Lazy initialisation of the container before. I’ll keep it that way – when in Rome, do as Romans -) However I’ve got strong feeling that RegisterType method should be private, as it makes no sense to expose it to the world. And here the registrations of components should go. I’ll come back to this class later.
+
+
+Now, lets look on end consumers of our components – controllers. I’m starting with AccountController as it has a use of UserManager and ApplicationSignInManager. By default it looks like this:
