@@ -1,5 +1,0 @@
-Register components
-Now let’s register components we need. Despite the fact, that Unity can resolve concrete types without registration (as per comments I’ve deleted), I’ll register them anyway. Here is the basic list of registrations I have. This is not a complete list, I’ll add more types there when I need them:
-
-
---- added by arup
