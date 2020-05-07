@@ -1,1 +1,0 @@
-If you run your application now, you’ll get exception that “IUserStore can’t be constructed” – that is correct, we have not registered it anywhere and it is required for ApplicationUserManager. Register now IUserStore:

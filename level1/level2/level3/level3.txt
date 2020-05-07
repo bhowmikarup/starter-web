@@ -1,2 +1,0 @@
-ApplicationUserManager class
-Now let’s look on UserManager class. The constructor does not have much in it, only takes IUserManager. But there is static method Create that creates an instance of UserManager and configures the settings:
