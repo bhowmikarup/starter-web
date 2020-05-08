@@ -11,3 +11,7 @@ As Stated above , the main purpose is to provide simple examples for Git Trainin
 This is the simple web project , deployment can be on any web server or even local file system
 
 ## How To Contribute
+
+### Copyright
+
+This is copyright to gnu license under bsd linux 2020
