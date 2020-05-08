@@ -12,6 +12,8 @@ This is the simple web project , deployment can be on any web server or even loc
 
 ## How To Contribute
 
+Please fork this repository and then issue pull requests for review
+
 ### Copyright
 
 This is copyright to gnu license under bsd linux 2020
